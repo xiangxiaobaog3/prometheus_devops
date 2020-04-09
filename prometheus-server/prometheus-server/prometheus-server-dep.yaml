@@ -50,7 +50,7 @@ spec:
         emptyDir: {}
       - name: server-config-volume
         configMap:
-          name: prometheus-config
+          name: prometheus-server-config
       - name: rule-config-volume
         configMap:
           name: prometheus-server-rule-config
